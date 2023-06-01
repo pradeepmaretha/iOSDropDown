@@ -20,7 +20,7 @@ class ViewController1: UIViewController {
         super.viewDidLoad()
         let option = Options()
         mainDropDown.optionArray = option.countries
-        mainDropDown.optionIds = option.ids
+//         mainDropDown.optionIds = option.ids
         mainDropDown.checkMarkEnabled = false
         mainDropDown.semanticContentAttribute = .forceRightToLeft
         mainDropDown.textColor = .red
